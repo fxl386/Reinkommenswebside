@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Grundlagen</title>
+    <link rel="stylesheet" type="text/css" href="Css.css">
+</head>
+<body>
+    <h1 class="UE1">Cascading Style Sheets (CSS)</h1>
+
+    <h2 class="UE2">Die ersten Schritte</h2>
+
+    <div>
+        <p>CSS ist der nächste Schritt für eine Website. CSS-Dokumente können einfach mit der Endung ".css" erstellt werden. Wichtig ist, dass CSS wie HTML keine Programmiersprache ist, sondern eine Stylesheet-Sprache. Während sich mit HTML das Grundgerüst erstellen lässt, sorgt CSS für das Design (Farben, Layouts, Abstände usw.). <br> CSS lässt sich auf verschiedene Arten in HTML einbinden, am besten über den Head-Bereich mit einem externen Stylesheet.<br>Hier sind die wichtigsten Einbindungsarten:</p>
+
+        <table>
+            <tr>
+                <th>Externes CSS</th>
+                <th>Internes CSS</th> 
+                <th>Inline CSS</th>
+            </tr>
+            <tr>
+                <td>Wird über den <strong>link</strong>-Tag im HTML-Head verknüpft. Ideal für sauberen Code und große Projekte.</td>
+                <td>Wird innerhalb eines <strong>style</strong>-Tags im Head geschrieben. Gut für einzelne Seiten.</td> 
+                <td>Wird direkt im HTML-Tag mit dem <strong>style</strong>-Attribut angewendet. Eher zu vermeiden.</td>
+            </tr>
+        </table>
+
+        <h2 class="UE3">Die wichtigsten Properties (Eigenschaften)</h2>
+
+        <p>Damit unsere Website auch gut aussieht, brauchen wir CSS-Eigenschaften. Mit <strong>color</strong> können wir die Textfarbe anpassen.<br> Mithilfe von <strong>background-color</strong> können wir dem Hintergrund eine Farbe geben.<br> <strong>font-weight: bold;</strong> brauchen wir, um Texte fett zu markieren (ähnlich wie das strong-Tag in HTML).</p>
+        
+        <p>Mithilfe von <strong>text-decoration: none;</strong> können wir zum Beispiel die Standard-Unterstreichung von Links entfernen.</p>
+        
+        <p>Dies wären die wichtigsten Properties für einfaches Text-Styling. Wenn wir die Größe von Überschriften ändern wollen, müssen wir <strong>font-size</strong> benutzen.<br> WICHTIG: Die Werte werden oft in Pixeln (px) angegeben, z.B. 24px. Je größer die Zahl, desto größer die Schrift.</p>
+
+        <img src="Screenshot 2026-10-08 101936.png" width="500" height="" alt="Screenshot über CSS Eigenschaften"/>
+    </div>
+
+    <div>
+        <h2 class="UE4">Die Selektoren</h2>
+
+        <p>Wir haben in CSS die Möglichkeit, bestimmte HTML-Elemente gezielt anzusprechen und zu stylen.<br>Die wichtigsten sind der Klassen- (Class) und der ID-Selektor. Wir schreiben also einen Punkt (<strong>.</strong>) für Klassen und eine Raute (<strong>#</strong>) für IDs. Der Unterschied:</p>
+        
+        <ul>
+            <li>Bei einer Klasse wird ein Punkt vor dem Namen geschrieben (z.B. .UE4). Klassen können auf einer Seite unendlich oft verwendet werden.</li>
+        </ul>
+
+        <ol>
+            <li>Bei einer ID wird eine Raute geschrieben (z.B. #header). Eine ID darf pro HTML-Seite nur ein einziges Mal vorkommen.</li>
+        </ol>
+
+        <p>Zusätzlich dazu gibt es noch Element-Selektoren (wie z.B. einfach <strong>h2</strong> oder <strong>p</strong>), womit sich alle Tags einer bestimmten Sorte gleichzeitig stylen lassen.</p>
+    </div>
+
+    <div>
+        <h2 class="UE5">Der theoretische Teil</h2>
+        <p>Sehen wir uns das CSS Box-Modell an.</p>
+        <p>Jedes HTML-Element wird in CSS als rechteckige Box betrachtet. Das Box-Modell ist der Standard, der beschreibt, wie Größe und Abstände von Elementen berechnet werden.</p>
+    
+        <p>Hier die Bestandteile der Box (von innen nach außen):<br></p>
+        <ul>
+            <li>Content: Der eigentliche Inhalt (Text, Bild), dessen Größe mit width und height bestimmt wird.</li>
+            <li>Padding: Der Innenabstand zwischen dem Content und dem Rahmen.</li>
+            <li>Border: Der sichtbare Rahmen um das Element herum.</li>
+            <li>Margin: Der Außenabstand, der das Element von anderen Elementen wegdrückt.</li>
+        </ul>
+
+        <h3 class="UE6">Absolute und relative Einheiten</h3>
+
+        <p><strong>Absolute Einheiten</strong> sind fest und ändern ihre Größe nicht. Die bekannteste ist das Pixel (px). Diese Methode wird meistens für exakte Rahmen oder feste Breiten verwendet.<br> 
+
+        <strong>Relative Einheiten</strong> beschreiben die Größe im Verhältnis zu einer anderen Eigenschaft (wie der Standard-Schriftgröße des Browsers oder der Breite des Bildschirms). Beispiele sind Prozent (%), em, rem oder vh/vw. Sie sind flexibler und ermöglichen es, Webseiten "responsive" zu machen (damit sie auf Handys gut aussehen), ohne alle Werte neu berechnen zu müssen.</p>
+        
+        
+    </div>
+
+    <div class="navbar">
+        <a class="navbar1" href="Startseite.html">Die Startseite</a>
+        
+        <a class="navbar2" href="Html.html">HTML</a>
+        
+    </div>
+</body>
+</html>

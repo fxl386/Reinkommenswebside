@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>HTML</title>
+<link rel="stylesheet" type="text/css" href="Html.css">
+</head>
+<body>
+    <h1 class="UE1">Hypertext Markup Language (HTML)</h1>
+
+    <h2 class="UE2">Die ersten Schritte</h2>
+
+    <div>
+        <p>HTML ist der erste Schritt für eine Website. HTML-Dokumente können einfach mit der Endung ".html" erstellt werden. Wichtig ist, dass HTML keine Programmiersprache ist. Mit HTML lässt sich das Grundgerüst erstellen. Einfache Texte, Überschriften usw. werden mit HTML gemacht. <br> HTML kann man in zwei verschiedene Kapitel unterteilen: den Head und den Body. Der Head dient hauptsächlich für Sachen, die wir als Besucher der Website nicht direkt sehen. Darunter z. B. der Titel, die Verbindung zu einem Stylesheet usw.<br>Hier sind die wichtigsten Sachen:</p>
+
+        <table>
+    <tr>
+        <th>meta charset="UTF-8"</th>
+        <th>title</th> 
+        <th>link rel="stylesheet" type="text/css" href=""</th>
+    </tr>
+    <tr>
+        <td>Ermöglicht es uns, Sonderzeichen und Emojis korrekt darzustellen.</td>
+        <td>Mit title können wir einen Titel in der Titelleiste des Browsers zuweisen.</td> 
+        <td>Nutzen wir, um ein externes CSS-Stylesheet zu verknüpfen.</td>
+    </tr>
+</table>
+
+<h2 class="UE3">Die wichtigsten Properties im Body</h2>
+
+<p>Damit wir auf unserer Website auch etwas sehen können, brauchen wir <strong>p</strong> in <>. Damit können wir einfache Texte wie diesen hier schreiben.<br> Mit Hilfe von <strong>br</strong> können wir einen Zeilenumbruch machen.<br> <strong>strong</strong> brauchen wir, um Texte fett zu markieren.</p>
+<p>Mithilfe von <strong>a</strong> können wir Links auf unsere Texte setzen.</p>
+<p>Dies wären die wichtigsten Properties für einfache Texte. Wenn wir Überschriften wie die auf dieser Seite brauchen, müssen wir <strong>h</strong> benutzen.<br> WICHTIG: Die Größe der Überschrift wird mithilfe der Zahl hinter dem Buchstaben h bestimmt. Das bedeutet, dass h1 die größte Größe ist. Je größer die Zahl, desto kleiner die Schriftgröße.</p>
+
+<img src="Screenshot 2026-09-24 100950.png" width="500" height="" alt="Screenshot über die Überschrift"/>
+
+    </div>
+
+    <div>
+        <h2 class="UE4">Die Listen</h2>
+
+        <p>Wir haben in HTML ebenfalls die Möglichkeit, bestimmte Listen zu machen.<br>Die einfachsten sind die unordered und die ordered list. Wir schreiben also <strong>ol</strong> für ordered list und <strong>ul</strong> für unordered list. Der Unterschied:</p>
+        <ul>
+            <li>Bei einer ul wird ein Punkt vor den Text geschrieben.</li>
+        </ul>
+
+        <ol>
+            <li>Bei einer ol wird eine Zahl geschrieben.</li>
+        </ol>
+
+        <p>Zusätzlich dazu gibt es noch Tabellen (Tables), womit sich komplexere Listen zusammensetzen können – siehe die Liste der Head-Sachen am Anfang der Seite.</p>
+    </div>
+
+    <div>
+        <h2 class="UE5">Der theoretische Teil</h2>
+        <p>Sehen wir uns globale Attribute an:</p>
+        <p>HTML-Attribute, die für alle Elemente gelten können, werden als Global Attributes bezeichnet. Sie sind Standardattribute, die das Styling von HTML-Elementen erweitern, unabhängig vom spezifischen Elementtyp.</p>
+    
+    <p>Hier die wichtigsten Attribute:<br></p>
+    <ul>
+        <li>id: Weist dem Element eine eindeutige Identifikation zu.</li>
+        <li>class: Ordnet dem Element eine oder mehrere CSS-Klassen zu.</li>
+        <li>style: Wendet Inline-CSS-Regeln direkt auf das Element an.</li>
+        <li>title: Definiert zusätzliche Informationen, die als Tooltip angezeigt werden.</li>
+    </ul>
+
+    <h3 class="UE6">Absolute and Relative Paths</h3>
+
+    <p><strong>Absolute Pfade</strong> geben den vollständigen Speicherort einer Datei an und sind unabhängig von dem Speicherort der HTML-Datei. Sie beginnen immer mit dem Protokoll (http: oder https:) und der Domain, gefolgt vom Pfad zur Datei. Diese Methode wird meistens für außenstehende Dateien verwendet, die sich auf einem anderen Server befinden.<br> 
+
+<strong>Relative Pfade</strong> beschreiben den Weg zu einer Datei im Verhältnis zur aktuellen HTML-Datei. Sie sind flexibler und ermöglichen es, Projekte lokal zu testen oder zu verschieben, ohne Links anpassen zu müssen, solange die interne Ordnerstruktur erhalten bleibt. Für interne Verlinkungen innerhalb desselben Projekts sind sie der Standard.</p>
+<img src="Screenshot 2026-10-01 101947.png" width="300" height="100" alt="Picture of a tree."/>
+    </div>
+
+    <div class="navbar">
+<a class="navbar1" href="Startseite.html">Die Startseite</a>
+<a class="navbar2" href="Css.html">CSS</a>
+</div>
+</body>
+</html>

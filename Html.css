@@ -1,0 +1,86 @@
+.UE1{
+    font-family: 'Courier New', Courier, monospace;
+    color: ;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.UE2{
+    font-family: 'Courier New', Courier, monospace;
+}
+.UE3{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px;
+}
+.UE4{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px;
+}
+.UE5{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px;
+}
+.UE6{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px;
+}
+
+body{
+    background-image: linear-gradient(grey,rgb(219, 161, 204));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    padding-left: 50px;
+    background-color: black;
+    hover:white;
+
+}
+.navbar1:hover{
+    color: white;
+    background-color: gray;
+    padding: 20px 15px;
+    border-radius: 4px;
+}
+.navbar2:hover{
+    color: white;
+    background-color: gray;
+     padding: 20px 15px;
+    border-radius: 4px;
+}
+.navbar3:hover{
+    color:white;
+    background-color: gray;
+     padding: 20px 15px;
+    border-radius: 4px;
+}
+

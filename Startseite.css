@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(to top, grey,rgb(219, 161, 204));
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.Hauptueber{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+.nebenueber1{
+    margin-bottom: 30px;
+    margin-top:  50px;
+}
+
+.pic{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 43px;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    padding-left: 50px;
+    background-color: black;
+    hover:white;
+
+}
+.navbar1:hover{
+    color: white;
+    background-color: gray;
+    padding: 20px 15px;
+    border-radius: 4px;
+}
+.navbar2:hover{
+    color: white;
+    background-color: gray;
+     padding: 20px 15px;
+    border-radius: 4px;
+}
+.navbar3:hover{
+    color:white;
+    background-color: gray;
+     padding: 20px 15px;
+    border-radius: 4px;
+}
+
